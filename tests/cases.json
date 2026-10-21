@@ -1,0 +1,275 @@
+{
+  "convention": "Indices are zero-based; subarray end is inclusive. For closest pair, any pair achieving the minimum distance is valid when tied.",
+  "maxSubarray": [
+    {
+      "name": "exemplo misto",
+      "input": [
+        -2,
+        3,
+        -1,
+        5,
+        -6,
+        2,
+        2,
+        -1
+      ],
+      "expected": {
+        "sum": 7,
+        "start": 1,
+        "end": 3
+      }
+    },
+    {
+      "name": "todos negativos",
+      "input": [
+        -8,
+        -3,
+        -6,
+        -2,
+        -5,
+        -4
+      ],
+      "expected": {
+        "sum": -2,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "name": "tamanho um",
+      "input": [
+        7
+      ],
+      "expected": {
+        "sum": 7,
+        "start": 0,
+        "end": 0
+      }
+    },
+    {
+      "name": "todos positivos",
+      "input": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "expected": {
+        "sum": 10,
+        "start": 0,
+        "end": 3
+      }
+    },
+    {
+      "name": "empate",
+      "input": [
+        1,
+        -1,
+        1
+      ],
+      "expected": {
+        "sum": 1,
+        "start": 0,
+        "end": 0
+      }
+    },
+    {
+      "name": "melhor intervalo cruza o meio",
+      "input": [
+        4,
+        -1,
+        2,
+        1
+      ],
+      "expected": {
+        "sum": 6,
+        "start": 0,
+        "end": 3
+      }
+    },
+    {
+      "name": "zero isolado",
+      "input": [
+        -2,
+        0,
+        -1
+      ],
+      "expected": {
+        "sum": 0,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "name": "soma positiva com zero inicial",
+      "input": [
+        0,
+        1
+      ],
+      "expected": {
+        "sum": 1,
+        "start": 0,
+        "end": 1
+      }
+    }
+  ],
+  "closestPair": [
+    {
+      "name": "par diagonal",
+      "input": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 3,
+          "y": 4
+        }
+      ],
+      "expected": {
+        "distance": 5,
+        "firstIndex": 0,
+        "secondIndex": 1
+      }
+    },
+    {
+      "name": "par horizontal",
+      "input": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 3,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "expected": {
+        "distance": 1,
+        "firstIndex": 0,
+        "secondIndex": 2
+      }
+    },
+    {
+      "name": "par vertical",
+      "input": [
+        {
+          "x": 2,
+          "y": 0
+        },
+        {
+          "x": 2,
+          "y": 5
+        },
+        {
+          "x": 2,
+          "y": 2
+        }
+      ],
+      "expected": {
+        "distance": 2,
+        "firstIndex": 0,
+        "secondIndex": 2
+      }
+    },
+    {
+      "name": "pontos duplicados",
+      "input": [
+        {
+          "x": 1,
+          "y": 1
+        },
+        {
+          "x": 5,
+          "y": 5
+        },
+        {
+          "x": 1,
+          "y": 1
+        }
+      ],
+      "expected": {
+        "distance": 0,
+        "firstIndex": 0,
+        "secondIndex": 2
+      }
+    },
+    {
+      "name": "empate de distância",
+      "input": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 2,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 2
+        }
+      ],
+      "expected": {
+        "distance": 2,
+        "anyMinimumPair": true
+      }
+    },
+    {
+      "name": "par cruza a mediana",
+      "input": [
+        {
+          "x": -10,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0.5,
+          "y": 0.2
+        },
+        {
+          "x": 10,
+          "y": 0
+        }
+      ],
+      "expected": {
+        "distance": 0.5385164807134505,
+        "firstIndex": 1,
+        "secondIndex": 2
+      }
+    },
+    {
+      "name": "pontos colineares",
+      "input": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 10,
+          "y": 0
+        },
+        {
+          "x": 4,
+          "y": 0
+        },
+        {
+          "x": 5,
+          "y": 0
+        }
+      ],
+      "expected": {
+        "distance": 1,
+        "firstIndex": 2,
+        "secondIndex": 3
+      }
+    }
+  ]
+}

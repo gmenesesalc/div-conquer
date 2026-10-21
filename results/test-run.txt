@@ -1,0 +1,266 @@
+
+> divisao-e-conquista@1.0.0 test
+> node --test
+
+TAP version 13
+# Subtest: força bruta: par horizontal
+ok 1 - força bruta: par horizontal
+  ---
+  duration_ms: 0.955693
+  type: 'test'
+  ...
+# Subtest: força bruta: par vertical
+ok 2 - força bruta: par vertical
+  ---
+  duration_ms: 0.150317
+  type: 'test'
+  ...
+# Subtest: força bruta: distância diagonal
+ok 3 - força bruta: distância diagonal
+  ---
+  duration_ms: 0.075744
+  type: 'test'
+  ...
+# Subtest: força bruta: pontos duplicados
+ok 4 - força bruta: pontos duplicados
+  ---
+  duration_ms: 0.134613
+  type: 'test'
+  ...
+# Subtest: força bruta: vários duplicados: menor par de índices
+ok 5 - força bruta: vários duplicados: menor par de índices
+  ---
+  duration_ms: 0.151479
+  type: 'test'
+  ...
+# Subtest: força bruta: empate entre distâncias
+ok 6 - força bruta: empate entre distâncias
+  ---
+  duration_ms: 0.091298
+  type: 'test'
+  ...
+# Subtest: força bruta: par cruza a mediana
+ok 7 - força bruta: par cruza a mediana
+  ---
+  duration_ms: 0.06585
+  type: 'test'
+  ...
+# Subtest: força bruta: pontos colineares
+ok 8 - força bruta: pontos colineares
+  ---
+  duration_ms: 0.062444
+  type: 'test'
+  ...
+# Subtest: força bruta: rejeita menos de dois pontos
+ok 9 - força bruta: rejeita menos de dois pontos
+  ---
+  duration_ms: 0.526915
+  type: 'test'
+  ...
+# Subtest: força bruta: rejeita coordenadas não finitas
+ok 10 - força bruta: rejeita coordenadas não finitas
+  ---
+  duration_ms: 0.395227
+  type: 'test'
+  ...
+# Subtest: divisão e conquista: par horizontal
+ok 11 - divisão e conquista: par horizontal
+  ---
+  duration_ms: 0.312462
+  type: 'test'
+  ...
+# Subtest: divisão e conquista: par vertical
+ok 12 - divisão e conquista: par vertical
+  ---
+  duration_ms: 0.118339
+  type: 'test'
+  ...
+# Subtest: divisão e conquista: distância diagonal
+ok 13 - divisão e conquista: distância diagonal
+  ---
+  duration_ms: 0.105399
+  type: 'test'
+  ...
+# Subtest: divisão e conquista: pontos duplicados
+ok 14 - divisão e conquista: pontos duplicados
+  ---
+  duration_ms: 0.060582
+  type: 'test'
+  ...
+# Subtest: divisão e conquista: vários duplicados: menor par de índices
+ok 15 - divisão e conquista: vários duplicados: menor par de índices
+  ---
+  duration_ms: 0.044477
+  type: 'test'
+  ...
+# Subtest: divisão e conquista: empate entre distâncias
+ok 16 - divisão e conquista: empate entre distâncias
+  ---
+  duration_ms: 0.050116
+  type: 'test'
+  ...
+# Subtest: divisão e conquista: par cruza a mediana
+ok 17 - divisão e conquista: par cruza a mediana
+  ---
+  duration_ms: 0.981582
+  type: 'test'
+  ...
+# Subtest: divisão e conquista: pontos colineares
+ok 18 - divisão e conquista: pontos colineares
+  ---
+  duration_ms: 0.069655
+  type: 'test'
+  ...
+# Subtest: divisão e conquista: rejeita menos de dois pontos
+ok 19 - divisão e conquista: rejeita menos de dois pontos
+  ---
+  duration_ms: 0.050847
+  type: 'test'
+  ...
+# Subtest: divisão e conquista: rejeita coordenadas não finitas
+ok 20 - divisão e conquista: rejeita coordenadas não finitas
+  ---
+  duration_ms: 0.044216
+  type: 'test'
+  ...
+# Subtest: divisão e conquista concorda com força bruta em entradas determinísticas
+ok 21 - divisão e conquista concorda com força bruta em entradas determinísticas
+  ---
+  duration_ms: 11.221413
+  type: 'test'
+  ...
+# Subtest: força bruta: exemplo misto
+ok 22 - força bruta: exemplo misto
+  ---
+  duration_ms: 1.352973
+  type: 'test'
+  ...
+# Subtest: força bruta: todos negativos
+ok 23 - força bruta: todos negativos
+  ---
+  duration_ms: 0.104578
+  type: 'test'
+  ...
+# Subtest: força bruta: tamanho um
+ok 24 - força bruta: tamanho um
+  ---
+  duration_ms: 0.071548
+  type: 'test'
+  ...
+# Subtest: força bruta: todos positivos
+ok 25 - força bruta: todos positivos
+  ---
+  duration_ms: 0.065299
+  type: 'test'
+  ...
+# Subtest: força bruta: empate: menor início
+ok 26 - força bruta: empate: menor início
+  ---
+  duration_ms: 0.118148
+  type: 'test'
+  ...
+# Subtest: força bruta: empate: menor fim
+ok 27 - força bruta: empate: menor fim
+  ---
+  duration_ms: 0.17893
+  type: 'test'
+  ...
+# Subtest: força bruta: melhor intervalo cruza a divisão
+ok 28 - força bruta: melhor intervalo cruza a divisão
+  ---
+  duration_ms: 0.07934
+  type: 'test'
+  ...
+# Subtest: força bruta: zero isolado
+ok 29 - força bruta: zero isolado
+  ---
+  duration_ms: 0.058919
+  type: 'test'
+  ...
+# Subtest: força bruta: soma positiva com zero inicial
+ok 30 - força bruta: soma positiva com zero inicial
+  ---
+  duration_ms: 0.371301
+  type: 'test'
+  ...
+# Subtest: força bruta: rejeita vetor vazio
+ok 31 - força bruta: rejeita vetor vazio
+  ---
+  duration_ms: 0.710863
+  type: 'test'
+  ...
+# Subtest: divisão e conquista: exemplo misto
+ok 32 - divisão e conquista: exemplo misto
+  ---
+  duration_ms: 0.250388
+  type: 'test'
+  ...
+# Subtest: divisão e conquista: todos negativos
+ok 33 - divisão e conquista: todos negativos
+  ---
+  duration_ms: 0.07301
+  type: 'test'
+  ...
+# Subtest: divisão e conquista: tamanho um
+ok 34 - divisão e conquista: tamanho um
+  ---
+  duration_ms: 0.040762
+  type: 'test'
+  ...
+# Subtest: divisão e conquista: todos positivos
+ok 35 - divisão e conquista: todos positivos
+  ---
+  duration_ms: 0.087121
+  type: 'test'
+  ...
+# Subtest: divisão e conquista: empate: menor início
+ok 36 - divisão e conquista: empate: menor início
+  ---
+  duration_ms: 0.054392
+  type: 'test'
+  ...
+# Subtest: divisão e conquista: empate: menor fim
+ok 37 - divisão e conquista: empate: menor fim
+  ---
+  duration_ms: 0.039529
+  type: 'test'
+  ...
+# Subtest: divisão e conquista: melhor intervalo cruza a divisão
+ok 38 - divisão e conquista: melhor intervalo cruza a divisão
+  ---
+  duration_ms: 0.037506
+  type: 'test'
+  ...
+# Subtest: divisão e conquista: zero isolado
+ok 39 - divisão e conquista: zero isolado
+  ---
+  duration_ms: 0.679897
+  type: 'test'
+  ...
+# Subtest: divisão e conquista: soma positiva com zero inicial
+ok 40 - divisão e conquista: soma positiva com zero inicial
+  ---
+  duration_ms: 0.080621
+  type: 'test'
+  ...
+# Subtest: divisão e conquista: rejeita vetor vazio
+ok 41 - divisão e conquista: rejeita vetor vazio
+  ---
+  duration_ms: 0.054002
+  type: 'test'
+  ...
+# Subtest: as duas versões concordam em vetores pequenos exaustivos
+ok 42 - as duas versões concordam em vetores pequenos exaustivos
+  ---
+  duration_ms: 35.2543
+  type: 'test'
+  ...
+1..42
+# tests 42
+# suites 0
+# pass 42
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 122.948529

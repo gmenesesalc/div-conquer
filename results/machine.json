@@ -1,0 +1,21 @@
+{
+  "measured_at": "2026-10-21T21:04:45.989Z",
+  "operating_system": "Linux 6.18.55",
+  "platform": "linux",
+  "architecture": "x64",
+  "node_version": "v22.16.0",
+  "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+  "logical_cpu_count": 5,
+  "total_memory_gib": 5.81,
+  "repetitions_per_size": 5,
+  "sizes": [
+    100,
+    200,
+    400,
+    800,
+    1600,
+    3200,
+    6400
+  ],
+  "note": "Medições neste ambiente Linux virtualizado; resultados dependem da máquina, da carga do sistema e da versão do Node.js. Reexecute na máquina da dupla antes da entrega."
+}
